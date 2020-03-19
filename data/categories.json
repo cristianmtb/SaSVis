@@ -1,0 +1,160 @@
+[
+		{
+			"type" : "category",
+			"title" : "data-types",
+			"description" : "Types of Data",
+			"instruction" : "Please check the types of data relevant to your interests:",
+			"childrenDescription" : "Data Type: ",
+
+			"entries" : [
+					{
+						"type" : "category-entry",
+						"title" : "tables",
+						"description" : "Tables",
+						"content" : "<span class=\"glyphicon glyphicon-th-list\"></span>"
+					},
+
+					{
+						"type" : "category-entry",
+						"title" : "networks",
+						"description" : "Networks / Graphs",
+						"content" : "<span class=\"content-entry-icon\"><img src=\"images/networks.svg\"></span>"
+					},
+
+					{
+						"type" : "category-entry",
+						"title" : "hierarchies",
+						"description" : "Hierarchies / Trees",
+						"content" : "<span class=\"glyphicon glyphicon-tree-conifer\"></span>"
+					},
+
+					{
+						"type" : "category-entry",
+						"title" : "sequences",
+						"description" : "Sequences / Strings",
+						"content" : "<span class=\"glyphicon glyphicon-text-width\"></span>"
+					} ]
+		},
+
+		{
+			"type" : "category",
+			"title" : "data-properties",
+			"description" : "Properties of Data",
+			"instruction" : "Please check the properties of data relevant to your interests:",
+			"childrenDescription" : "Data Property: ",
+
+			"entries" : [
+					{
+						"type" : "category-entry",
+						"title" : "temporal",
+						"description" : "Temporal",
+						"content" : "<span class=\"glyphicon glyphicon-time\"></span>"
+					},
+
+					{
+						"type" : "category-entry",
+						"title" : "ordinal",
+						"description" : "Ordinal",
+						"content" : "<span class=\"glyphicon glyphicon-signal\"></span>"
+					},
+
+					{
+						"type" : "category-entry",
+						"title" : "spatial",
+						"description" : "Spatial",
+						"content" : "<span class=\"glyphicon glyphicon-fullscreen\"></span>"
+					},
+
+					{
+						"type" : "category-entry",
+						"title" : "nominal",
+						"description" : "Nominal",
+						"content" : "<span class=\"glyphicon glyphicon-cloud\"></span>"
+					},
+
+					{
+						"type" : "category-entry",
+						"title" : "quantitative",
+						"description" : "Quantitative",
+						"content" : "<span class=\"glyphicon glyphicon-scale\"></span>"
+					},
+
+					{
+						"type" : "category-entry",
+						"title" : "uncertainty",
+						"description" : "Uncertainty",
+						"content" : "<span class=\"glyphicon glyphicon-question-sign\"></span>"
+					} ]
+		},
+
+		{
+			"type" : "category",
+			"title" : "tasks",
+			"description" : "Tasks",
+			"instruction" : "Please check the tasks relevant to your interests:",
+			"childrenDescription" : "Task: ",
+
+			"entries" : [
+					{
+						"type" : "category-entry",
+						"title" : "explore",
+						"description" : "Explore",
+						"content" : "<span class=\"glyphicon glyphicon-move\"></span>"
+					},     
+			             
+					{
+						"type" : "category-entry",
+						"title" : "search",
+						"description" : "Search",
+						"content" : "<span class=\"glyphicon glyphicon-search\"></span>"
+					},
+
+					{
+						"type" : "category-entry",
+						"title" : "filter",
+						"description" : "Filter",
+						"content" : "<span class=\"glyphicon glyphicon-filter\"></span>"
+					},
+
+					{
+						"type" : "category-entry",
+						"title" : "select",
+						"description" : "Select",
+						"content" : "<span class=\"glyphicon glyphicon-pushpin\"></span>"
+					},
+
+					{
+						"type" : "category-entry",
+						"title" : "compare",
+						"description" : "Compare",
+						"content" : "<span class=\"glyphicon glyphicon-sort-by-attributes\"></span>"
+					},
+					
+					{
+						"type" : "category-entry",
+						"title" : "cluster",
+						"description" : "Cluster",
+						"content" : "<span class=\"glyphicon glyphicon-tags\"></span>"
+					},
+					
+					{
+						"type" : "category-entry",
+						"title" : "annotate",
+						"description" : "Annotate",
+						"content" : "<span class=\"glyphicon glyphicon-pencil\"></span>"
+					},
+
+					{
+						"type" : "category-entry",
+						"title" : "share",
+						"description" : "Share",
+						"content" : "<span class=\"glyphicon glyphicon-bookmark\"></span>"
+					},
+
+					{
+						"type" : "category-entry",
+						"title" : "guide",
+						"description" : "Guide",
+						"content" : "<span class=\"glyphicon glyphicon-user\"></span>"
+					} ]
+		} ]
