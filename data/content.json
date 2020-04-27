@@ -70,72 +70,25 @@
             "venue": "Seams 2019"
     },
     {
-        "id": "Gerosatathopoulos2019", 
-        "title": "TRAPPed in Traffic? A Self-Adaptive Framework for Decentralized Traffic Optimization", 
-        "year": 2019, 
-        "authors": "Ilias Gerostathopoulos; Evangelos Pournaras", 
+        "id": "Gerosatathopoulos2018", 
+        "title": "Adapting a System with Noisy Outputs with Statistical Guarantees", 
+        "year": 2018, 
+        "authors": "Ilias Gerostathopoulos; Christian Prehofer; Tomas Bures ", 
         "reference": "", 
-        "url": "https://ieeexplore-ieee-org.proxy.lnu.se/document/8787057", 
+        "url": "", 
         "categories": [
             "single",
             "static",
             "persistent",
             "internal",
-            "functional",
-            "frequent",
+            "non-functional",
+            "uncertain",
             "kk",
             "parametric",
             "autonomous",
-            "decentralized",
-            "best-effort",
-            "short",
             "event"
         ], 
         "first_author": "Gerostathopoulos", 
-        "venue": "Seams 2019"
-    },
-    {
-            "id": "Quin2d019", 
-            "title": "Efficient Analysis of Large Adaptation Spaces in Self-Adaptive Systems using Machine Learning", 
-            "year": 2019, 
-            "authors": "Federico Quin; Danny Weyns; Thomas Bamelis; Sarpreet Singh Buttar; Sam Michiels", 
-            "reference": "", 
-            "url": "https://ieeexplore-ieee-org.proxy.lnu.se/document/8787013", 
-            "categories": [
-                "multiple",
-                "static",
-                "persistent",
-                "external",
-                "non-functional",
-                "uncertain",
-                "ku",
-                "autonomous",
-                "decentralized",
-                "event"
-            ], 
-            "first_author": "Quin", 
-            "venue": "Seams 2019"
-    },
-    {
-            "id": "Jonses2019", 
-            "title": "Defeating Denial-of-Service Attacks in a Self-Managing N-Variant System", 
-            "year": 2019, 
-            "authors": "Jessica Jones; Jason D. Hiser; Jack W. Davidson; Stephanie Forrest", 
-            "reference": "", 
-            "url": "https://ieeexplore-ieee-org.proxy.lnu.se/document/8787016", 
-            "categories": [
-                "single",
-                "static",
-                "persistent",
-                "external",
-                "non-functional",
-                "uncertain",
-                "ku",
-                "autonomous",
-                "uncertain",
-                "event"
-            ], 
-            "first_author": "Jones", 
-            "venue": "Seams 2019"
+        "venue": "Seams 2018"
     }
 ]
