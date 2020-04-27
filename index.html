@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="BioVis Explorer">
-<meta name="author" content="Kostiantyn Kucher @ ISOVIS Group">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="BioVis Explorer">
+	<meta name="author" content="Kostiantyn Kucher @ ISOVIS Group">
 
-<title>BioVis Explorer</title>
+	<title>SaS Explorer</title>
 
-<link rel="shortcut icon" href="images/favicon.png">
+	<link rel="shortcut icon" href="images/favicon.png">
 
-<!-- Bootstrap -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<!-- Optional Bootstrap theme (for fancy look) -->
-<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Optional Bootstrap theme (for fancy look) -->
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
 
-<!-- noUiSlider -->
-<link href="css/jquery.nouislider.min.css" rel="stylesheet">
+	<!-- noUiSlider -->
+	<link href="css/jquery.nouislider.min.css" rel="stylesheet">
 
-<!-- Custom styles used for this page -->
-<link href="css/custom.css" rel="stylesheet">
+	<!-- Custom styles used for this page -->
+	<link href="css/custom.css" rel="stylesheet">
 
-<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
 
-<!-- Google Analytics code -->
-<script>
+	<!-- Google Analytics code -->
+	<!-- <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -39,32 +40,26 @@
   ga('create', 'UA-51675572-3', 'auto');
   ga('send', 'pageview');
 
-</script>
+</script> -->
 
 </head>
+
 <body>
 	<!-- Static navbar -->
-	<div class="navbar navbar-default navbar-static-top custom-navbar"
-		role="navigation">
+	<div class="navbar navbar-default navbar-static-top custom-navbar" role="navigation">
 		<div class="container-fluid custom-navbar-container">
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse"
-					data-target=".navbar-collapse">
-					<span class="sr-only">Toggle navigation</span> <span
-						class="icon-bar"></span> <span class="icon-bar"></span> <span
-						class="icon-bar"></span>
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span>
 				</button>
 
 				<div class="navbar-header-container">
 					<div class="navbar-header-top">
-						<span class="navbar-brand-title">BioVis Explorer</span>
-					</div>
-					<div class="navbar-header-middle">
-						<b>A Visual Guide to BioVis Techniques (<a href="https://doi.org/10.1371/journal.pone.0187341" target="_blank" title="BioVis Explorer: A visual guide for biological data visualization techniques">PLOS ONE article</a>)</b>
+						<span class="navbar-brand-title"> SaS Explorer</span>
 					</div>
 					<div class="navbar-header-bottom">
-						Provided by <a href="http://cs.lnu.se/isovis/" class="navbar-link"
-							target="_blank">ISOVIS group</a>
+						Provided by <a href="" class="navbar-link" target="_blank">//text_here//</a>
 					</div>
 				</div>
 			</div>
@@ -74,126 +69,6 @@
 					<li><a href="#" data-toggle="modal" data-target="#aboutModal">About</a></li>
 					<li><a href="#" data-toggle="modal" data-target="#summaryTableModal">Summary</a></li>
 					<li><a href="#" data-toggle="modal" data-target="#addEntryModal">Add entry</a></li>
-					<li class="dropdown">
-			        	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Other surveys <b class="caret"></b></a>
-			        	<ul class="dropdown-menu">
-			        		
-				        	<li class="dropdown-header">Our Visual Surveys</li>
-							<li>
-		  						<a href="http://textvis.lnu.se" target="_blank">TextVis Browser</a>
-							</li>
-				            <li>
-		  						<a href="http://sentimentvis.lnu.se" target="_blank">SentimentVis Browser</a>
-							</li>
-														
-							
-							<li role="separator" class="divider"></li>
-							<li class="dropdown-header">Other Visual Surveys</li>
-				            <li>
-		  						<a href="http://vcg.informatik.uni-rostock.de/~ct/timeviz/timeviz.html" target="_blank">TimeVis Browser</a>
-							</li>
-				            <li>
-		  						<a href="http://treevis.net" target="_blank">TreeVis.net</a>
-							</li>
-							<li>
-		  						<a href="http://dynamicgraphs.fbeck.com/" target="_blank">Dynamic Graph Visualization</a>
-							</li>
-							<li>
-		  						<a href="http://financevis.net" target="_blank">The Finance Vis Browser</a>
-							</li>
-				            <li>
-		  						<a href="http://hdc.cs.arizona.edu/people/kisaacs/STAR/" target="_blank">Performance Visualization</a>
-							</li>
-							<li>
-		  						<a href="http://dataphys.org/list/" target="_blank">Physical Visualization</a>
-							</li>
-							<li>
-		  						<a href="http://www.datavis.ca/milestones/" target="_blank">Data Visualization Milestones</a>
-							</li>
-							<li>
-		  						<a href="http://www.sci.utah.edu/~shusenl/highDimSurvey/website/" target="_blank">Visualizing High-Dimensional Data</a>
-							</li>
-							<li>
-		  						<a href="http://groups-in-graphs.corinna-vehlow.com/" target="_blank">Visualizing Group Structures in Graphs</a>
-							</li>
-							<li>
-		  						<a href="https://www.cos.ufrj.br/~schots/survis_reuse/" target="_blank">Visualization of Software Reuse</a>
-							</li>
-							<li>
-		  						<a href="http://matrixreordering.dbvis.de/" target="_blank">Matrix Reordering Survey</a>
-							</li>
-							<li>
-		  						<a href="http://cartogram.cs.arizona.edu/survis-cartogram/" target="_blank">The State of the Art in Cartograms</a>
-							</li>
-							<li>
-		  						<a href="http://www.paperviz.org/" target="_blank">PaperViz.org</a>
-							</li>
-							<li>
-		  						<a href="http://pubvis.github.io/" target="_blank">SIGGRAPH Publication Visualization</a>
-							</li>
-							<li>
-		  						<a href="http://sparklines-literature.fbeck.com/" target="_blank">Sparklines Literature</a>
-							</li>
-							<li>
-		  						<a href="http://vader.lab.asu.edu/pva_browser" target="_blank">Predictive Visual Analytics Browser</a>
-							</li>
-							<li>
-		  						<a href="http://sos.swansea.ac.uk/" target="_blank">Survey of Surveys (SoS) Literature Collection</a>
-							</li>
-							<li>
-		  						<a href="http://collectionvis.org/" target="_blank">Visualization of Cultural Heritage Collection Data</a>
-							</li>
-							<li>
-		  						<a href="http://visgroup.thss.tsinghua.edu.cn:30072/" target="_blank">Bridging Text Visualization and Mining</a>
-							</li>
-							<li>
-		  						<a href="http://visbooks.swansea.ac.uk/" target="_blank">Survey of Information Visualization Books</a>
-							</li>		
-																			
-							
-							<li role="separator" class="divider"></li>
-							<li class="dropdown-header">Non-Interactive Surveys</li>
-							<li>
-		  						<a href="https://sites.google.com/site/drminchen/cgf-info/cgf-stars" target="_blank">Min Chen's list of survey articles</a>
-							</li>
-							<li>
-		  						<a href="https://infovis-wiki.net/wiki/Interactive_Online_Surveys" target="_blank">List of interactive online surveys at InfoVis Wiki</a>
-							</li>
-							<li>
-		  						<a href="http://setviz.net/" target="_blank">Sets and Set-typed Data Visualization</a>
-							</li>
-							<li>
-		  						<a href="https://docs.google.com/spreadsheets/d/1yJkf-Nt0kel8hojLZJQiJeWR5Qc-HHqvKvpRDVrfc9g/edit#gid=0" target="_blank">Visualization and Interactive Surfaces</a>
-							</li>
-							
-													
-							<li role="separator" class="divider"></li>
-							<li class="dropdown-header">Other Related Tools and Datasets</li>
-							<li>
-		  						<a href="http://keyvis.org" target="_blank">KeyVis</a>
-							</li>
-							<li>
-		  						<a href="http://keshif.me/" target="_blank">Keshif</a>
-							</li>
-							<li>
-		  						<a href="http://vispubdata.org/" target="_blank">Visualization Publication Data Collection</a>
-							</li>
-							
-							
-							<li role="separator" class="divider"></li>
-							<li class="dropdown-header">Discontinued Surveys</li>
-							<li>
-		  						<a href="https://aviz.fr/~bbach/spacetimecubes/" target="_blank"><s>Space-Time Cube Vis</s></a>
-							</li>
-							<li>
-		  						<a href="https://multivis.net/" target="_blank"><s>Multifaceted Data Visualization</s></a>
-							</li>
-							<li>
-		  						<a href="http://www.aviz.fr/~bbach/timelines/" target="_blank"><s>Timeline Visualization Survey</s></a>
-							</li>
-			        	
-			        	</ul>
-			        </li>
 				</ul>
 			</div>
 			<!--/.nav-collapse -->
@@ -207,19 +82,22 @@
 				<div class="sidebar-container">
 					<div id="filtersPanel">
 
-						<!-- Nav tabs for the sidebar -->	
+						<!-- Nav tabs for the sidebar -->
 						<ul id="filtersTabList" class="nav nav-tabs" role="tablist">
-							<li role="presentation" class="active"><a href="#mainFilters" title="Home (main filters)" aria-controls="mainFilters" role="tab" data-toggle="tab">Home</a></li>
-							<li role="presentation"><a href="#advancedFeatures" title="Advanced features" aria-controls="advancedFeatures" role="tab" data-toggle="tab">Advanced</a></li>
+							<li role="presentation" class="active"><a href="#mainFilters" title="Home (main filters)"
+									aria-controls="mainFilters" role="tab" data-toggle="tab">Home</a></li>
+							<li role="presentation"><a href="#advancedFeatures" title="Advanced features"
+									aria-controls="advancedFeatures" role="tab" data-toggle="tab">Advanced</a></li>
 						</ul>
-					
+
 
 						<!-- Tab panes -->
 						<div class="tab-content">
 
-							<div id="mainFilters" role="tabpanel" class="tab-pane active panel panel-default small-bottom-margin">
+							<div id="mainFilters" role="tabpanel"
+								class="tab-pane active panel panel-default small-bottom-margin">
 								<div class="panel-body">
-									<h5 class="entries-count-label panel-label">Techniques displayed:</h5>
+									<h5 class="entries-count-label panel-label">Papers displayed:</h5>
 									<div id="displayedEntriesCount"></div>
 								</div>
 
@@ -244,7 +122,7 @@
 											<div id="timeFilter"></div>
 										</div>
 										<div id="timeChart" class="time-chart">
-    									</div>
+										</div>
 									</li>
 								</ul>
 
@@ -253,97 +131,243 @@
 							</div>
 
 
-							<div id="advancedFeatures" role="tabpanel" class="tab-pane panel panel-default small-bottom-margin">
+							<div id="advancedFeatures" role="tabpanel"
+								class="tab-pane panel panel-default small-bottom-margin">
 								<ul class="list-group">
 									<li class="list-group-item">
-																			
 										<ul class="list-group nested-list-group">
 											<h5 class="inline-block panel-label">
 												Layout configuration</h5>
-																							
+
 											<li class="list-group-item">
-												<p class="nested-panel-label" title="Weights for the dissimilarity/distance computations for entries">
+												<p class="nested-panel-label"
+													title="Weights for the dissimilarity/distance computations for entries">
 													Weights
-													<button id="resetWeights" type="button" class="btn btn-default btn-xs reset-weights hidden" title="Reset weights">
-													<span class="glyphicon glyphicon-remove"></span></button>
+													<button id="resetWeights" type="button"
+														class="btn btn-default btn-xs reset-weights hidden"
+														title="Reset weights">
+														<span class="glyphicon glyphicon-remove"></span></button>
 												</p>
-																						
+
 												<div>
 													<span class="delta">&Delta;</span>year
-<!-- 													<span id="yearWeight" data-weight="year" class="weight-label"></span> -->
+													<!-- 													<span id="yearWeight" data-weight="year" class="weight-label"></span> -->
 												</div>
 												<div class="slider-label-container">
 													<span class="slider-label-min weight-label-min">-</span>
 													<span class="slider-label-max weight-label-max">+</span>
 												</div>
 												<div class="slider-container">
-													<div id="yearWeightSlider" data-weight="year" class="weight-slider"></div>
+													<div id="yearWeightSlider" data-weight="year" class="weight-slider">
+													</div>
 												</div>
-												
+
 												<div>
-													<span class="delta">&Delta;</span>type of data
-<!-- 													<span id="dataTypesWeight" data-weight="dataTypes" class="weight-label"></span> -->
+													<span class="delta">&Delta;</span>Goals - Multiplicity
+													<!-- 													<span id="dataTypesWeight" data-weight="dataTypes" class="weight-label"></span> -->
 												</div>
 												<div class="slider-label-container">
 													<span class="slider-label-min weight-label-min">-</span>
 													<span class="slider-label-max weight-label-max">+</span>
 												</div>
 												<div class="slider-container">
-													<div id="dataTypesWeightSlider" data-weight="dataTypes" class="weight-slider"></div>
+													<div id="gMultiplicityTypesWeightSlider"
+														data-weight="goalsMultiplicity" class="weight-slider"></div>
 												</div>
-												
+
 												<div>
-													<span class="delta">&Delta;</span>property of data
-<!-- 													<span id="dataPropertiesWeight" data-weight="dataProperties" class="weight-label"></span> -->
+													<span class="delta">&Delta;</span>Goals - Evolution
+													<!-- 													<span id="dataPropertiesWeight" data-weight="dataProperties" class="weight-label"></span> -->
 												</div>
 												<div class="slider-label-container">
 													<span class="slider-label-min weight-label-min">-</span>
 													<span class="slider-label-max weight-label-max">+</span>
 												</div>
 												<div class="slider-container">
-													<div id="dataPropertiesWeightSlider" data-weight="dataProperties" class="weight-slider"></div>
+													<div id="dataPropertiesWeightSlider" data-weight="goalsEvolution"
+														class="weight-slider"></div>
 												</div>
-												
+
 												<div>
-													<span class="delta">&Delta;</span>tasks
-<!-- 													<span id="tasksWeight" data-weight="tasks" class="weight-label"></span> -->
+													<span class="delta">&Delta;</span>Goals - Duration
+													<!-- 													<span id="tasksWeight" data-weight="tasks" class="weight-label"></span> -->
 												</div>
 												<div class="slider-label-container">
 													<span class="slider-label-min weight-label-min">-</span>
 													<span class="slider-label-max weight-label-max">+</span>
 												</div>
 												<div class="slider-container">
-													<div id="tasksWeightSlider" data-weight="tasks" class="weight-slider"></div>
+													<div id="tasksWeightSlider" data-weight="goalsDuration"
+														class="weight-slider"></div>
 												</div>
-												
+
+												<div>
+													<span class="delta">&Delta;</span>Change - Source
+													<!-- 													<span id="dataTypesWeight" data-weight="dataTypes" class="weight-label"></span> -->
+												</div>
+												<div class="slider-label-container">
+													<span class="slider-label-min weight-label-min">-</span>
+													<span class="slider-label-max weight-label-max">+</span>
+												</div>
+												<div class="slider-container">
+													<div id="gMultiplicityTypesWeightSlider" data-weight="changeSource"
+														class="weight-slider"></div>
+												</div>
+
+												<div>
+													<span class="delta">&Delta;</span>Change - Type
+													<!-- 													<span id="dataPropertiesWeight" data-weight="dataProperties" class="weight-label"></span> -->
+												</div>
+												<div class="slider-label-container">
+													<span class="slider-label-min weight-label-min">-</span>
+													<span class="slider-label-max weight-label-max">+</span>
+												</div>
+												<div class="slider-container">
+													<div id="dataPropertiesWeightSlider" data-weight="changeType"
+														class="weight-slider"></div>
+												</div>
+
+												<div>
+													<span class="delta">&Delta;</span>Change - Frequency
+													<!-- 													<span id="tasksWeight" data-weight="tasks" class="weight-label"></span> -->
+												</div>
+												<div class="slider-label-container">
+													<span class="slider-label-min weight-label-min">-</span>
+													<span class="slider-label-max weight-label-max">+</span>
+												</div>
+												<div class="slider-container">
+													<div id="tasksWeightSlider" data-weight="changeFrequency"
+														class="weight-slider"></div>
+												</div>
+												<div>
+													<span class="delta">&Delta;</span>Change - Anticipation
+													<!-- 													<span id="tasksWeight" data-weight="tasks" class="weight-label"></span> -->
+												</div>
+												<div class="slider-label-container">
+													<span class="slider-label-min weight-label-min">-</span>
+													<span class="slider-label-max weight-label-max">+</span>
+												</div>
+												<div class="slider-container">
+													<div id="tasksWeightSlider" data-weight="changeAnticipation"
+														class="weight-slider"></div>
+												</div>
+												<!-- Mechanism -->
+
+												<div>
+													<span class="delta">&Delta;</span>Mechanism - Type
+													<!-- 													<span id="dataTypesWeight" data-weight="dataTypes" class="weight-label"></span> -->
+												</div>
+												<div class="slider-label-container">
+													<span class="slider-label-min weight-label-min">-</span>
+													<span class="slider-label-max weight-label-max">+</span>
+												</div>
+												<div class="slider-container">
+													<div id="gMultiplicityTypesWeightSlider" data-weight="mechanismType"
+														class="weight-slider"></div>
+												</div>
+
+												<div>
+													<span class="delta">&Delta;</span>Mechanism - Autonomy
+													<!-- 													<span id="dataPropertiesWeight" data-weight="dataProperties" class="weight-label"></span> -->
+												</div>
+												<div class="slider-label-container">
+													<span class="slider-label-min weight-label-min">-</span>
+													<span class="slider-label-max weight-label-max">+</span>
+												</div>
+												<div class="slider-container">
+													<div id="dataPropertiesWeightSlider" data-weight="mechanismAutonomy"
+														class="weight-slider"></div>
+												</div>
+
+												<div>
+													<span class="delta">&Delta;</span>Mechanism - Organization
+													<!-- 													<span id="tasksWeight" data-weight="tasks" class="weight-label"></span> -->
+												</div>
+												<div class="slider-label-container">
+													<span class="slider-label-min weight-label-min">-</span>
+													<span class="slider-label-max weight-label-max">+</span>
+												</div>
+												<div class="slider-container">
+													<div id="tasksWeightSlider" data-weight="mechanismOrganization"
+														class="weight-slider"></div>
+												</div>
+
+												<div>
+													<span class="delta">&Delta;</span>Mechanism - Scope
+													<!-- 													<span id="dataTypesWeight" data-weight="dataTypes" class="weight-label"></span> -->
+												</div>
+												<div class="slider-label-container">
+													<span class="slider-label-min weight-label-min">-</span>
+													<span class="slider-label-max weight-label-max">+</span>
+												</div>
+												<div class="slider-container">
+													<div id="gMultiplicityTypesWeightSlider" data-weight="mechanismScope"
+														class="weight-slider"></div>
+												</div>
+
+												<div>
+													<span class="delta">&Delta;</span>Mechanism - Time
+													<!-- 													<span id="dataPropertiesWeight" data-weight="dataProperties" class="weight-label"></span> -->
+												</div>
+												<div class="slider-label-container">
+													<span class="slider-label-min weight-label-min">-</span>
+													<span class="slider-label-max weight-label-max">+</span>
+												</div>
+												<div class="slider-container">
+													<div id="dataPropertiesWeightSlider" data-weight="mechanismTime"
+														class="weight-slider"></div>
+												</div>
+
+												<div>
+													<span class="delta">&Delta;</span>Mechanism - Duration
+													<!-- 													<span id="tasksWeight" data-weight="tasks" class="weight-label"></span> -->
+												</div>
+												<div class="slider-label-container">
+													<span class="slider-label-min weight-label-min">-</span>
+													<span class="slider-label-max weight-label-max">+</span>
+												</div>
+												<div class="slider-container">
+													<div id="tasksWeightSlider" data-weight="mechanismDuration"
+														class="weight-slider"></div>
+												</div>
+												<div>
+													<span class="delta">&Delta;</span>Mechanism - Triggering
+													<!-- 													<span id="tasksWeight" data-weight="tasks" class="weight-label"></span> -->
+												</div>
+												<div class="slider-label-container">
+													<span class="slider-label-min weight-label-min">-</span>
+													<span class="slider-label-max weight-label-max">+</span>
+												</div>
+												<div class="slider-container">
+													<div id="tasksWeightSlider" data-weight="mechanismTriggering"
+														class="weight-slider"></div>
+												</div>
 												<div>
 													<span class="delta">&Delta;</span>authors
-<!-- 													<span id="authorsWeight" data-weight="authors" class="weight-label"></span> -->
+													<!-- 													<span id="authorsWeight" data-weight="authors" class="weight-label"></span> -->
 												</div>
 												<div class="slider-label-container">
 													<span class="slider-label-min weight-label-min">-</span>
 													<span class="slider-label-max weight-label-max">+</span>
 												</div>
 												<div class="slider-container">
-													<div id="authorsWeightSlider" data-weight="authors" class="weight-slider"></div>
+													<div id="authorsWeightSlider" data-weight="authors"
+														class="weight-slider"></div>
 												</div>
 											</li>
 										</ul>
-									
-										
-										
 									</li>
 								</ul>
-							
+
 								<ul class="list-group">
 									<li class="list-group-item">
 										<ul class="list-group nested-list-group">
 											<h5 class="inline-block panel-label">
 												Highlight configuration</h5>
-																							
 											<li class="list-group-item">
-												<div title="Minimum similarity threshold for interactive highlighting of relevant entries (try to hover over an entry)">
-												Cutoff for similarity: <span id="similarityThreshold"></span>
+												<div
+													title="Minimum similarity threshold for interactive highlighting of relevant entries (try to hover over an entry)">
+													Cutoff for similarity: <span id="similarityThreshold"></span>
 												</div>
 												<div class="slider-label-container">
 													<span class="slider-label-min weight-label-min">-</span>
@@ -369,7 +393,7 @@
 
 						<div class="row">
 							<div id="entriesContainer" class="col-md-12">
-								<p class="text-muted">Here comes the content</p>
+								<p class="text-muted">Content loading...</p>
 							</div>
 						</div>
 
@@ -383,7 +407,7 @@
 		<div class="row-container">
 			<div class="footer">
 				<hr>
-				<p class="text-muted credit no-top-margin no-bottom-margin">
+				<!-- <p class="text-muted credit no-top-margin no-bottom-margin">
 					&copy; ISOVIS group 2015&ndash;2019. All rights for the technique images belong to their respective owners.
 				</p>
 				<p class="text-muted credit no-top-margin no-bottom-margin">
@@ -391,7 +415,7 @@
 				</p>
 				<p class="text-muted credit no-top-margin no-bottom-margin">
 		     		This website is using Google Analytics (for statistical purposes only).
-		   		</p>
+		   		</p> -->
 			</div>
 		</div>
 	</div>
@@ -400,22 +424,19 @@
 	<div id="imageCache"></div>
 
 	<!-- Entry details modal -->
-	<div id="entryDetailsModal" class="modal fade" tabindex="-1"
-		role="dialog" aria-labelledby="entryDetailsTitle" aria-hidden="true"
-		data-backdrop="static">
+	<div id="entryDetailsModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="entryDetailsTitle"
+		aria-hidden="true" data-backdrop="static">
 		<div class="modal-dialog modal-wide">
 			<div class="modal-content">
 				<div class="modal-header" hidden="true"></div>
 				<div class="modal-body">
 					<div class="media">
-						<span class="pull-left"> <img id="entryDetailsThumbnail"
-							class="media-object thumbnail100">
+						<span class="pull-left"> <img id="entryDetailsThumbnail" class="media-object thumbnail100">
 						</span>
 						<div class="media-body">
-							<button type="button" class="close" data-dismiss="modal"
-								aria-hidden="true">&times;</button>
-							<h4 id="entryDetailsTitle"
-								class="media-heading entry-details-field entry-details-title"></h4>
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h4 id="entryDetailsTitle" class="media-heading entry-details-field entry-details-title">
+							</h4>
 							<h5 id="entryDetailsAuthors" class="entry-details-field"></h5>
 							<div id="entryDetailsCategories" class="entry-details-field"></div>
 							<div class="vertical-delimiter"></div>
@@ -424,12 +445,12 @@
 							<h6 id="entryDetailsUrl" class="entry-details-field"></h6>
 							<h6 id="entryDetailsImplementationUrl" class="entry-details-field"></h6>
 							<h6 id="entryDetailsBibtex" class="entry-details-field"></h6>
-									
+
 						</div>
 					</div>
-					
-					<hr/>
-							
+
+					<hr />
+
 					<h5 id="similarEntriesHeader">Similar techniques: <span id="noSimilarEntries">not found</span></h5>
 					<ol id="similarEntries"></ol>
 				</div>
@@ -442,43 +463,51 @@
 	<!-- /.modal -->
 
 	<!-- About modal -->
-	<div id="aboutModal" class="modal fade" tabindex="-1" role="dialog"
-		aria-labelledby="aboutTitle" aria-hidden="true" data-backdrop="static">
+	<div id="aboutModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="aboutTitle" aria-hidden="true"
+		data-backdrop="static">
 		<div class="modal-dialog modal-medium">
 			<div class="modal-content">
 				<div class="modal-header" hidden="true"></div>
 				<div class="modal-body">
 					<div class="media">
-						<span class="pull-left"> <a href="http://cs.lnu.se/isovis/"
-							class="about-link" target="_blank" title="ISOVIS group"> <img
-								class="media-object" src="images/isovis-logo.png" width="122px"
-								height="125px" alt="ISOVIS group logo">
-						</a>
+						<span class="pull-left"> <a href="http://cs.lnu.se/isovis/" class="about-link" target="_blank"
+								title="ISOVIS group"> <img class="media-object" src="images/isovis-logo.png"
+									width="122px" height="125px" alt="ISOVIS group logo">
+							</a>
 						</span>
 						<div class="media-body">
-							<button type="button" class="close" data-dismiss="modal"
-								aria-hidden="true">&times;</button>
-							<h3 id="aboutTitle">BioVis Explorer</h3>
-							<div class="small-bottom-margin">Developed by Andreas Kerren<sup>1</sup>, Kostiantyn Kucher<sup>1</sup>, Yuan-Fang Li<sup>2</sup>, and Falk Schreiber<sup>2, 3</sup></div>
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h3 id="aboutTitle">SaS Explorer</h3>
+							<div class="small-bottom-margin">Developed by Andreas Kerren<sup>1</sup>, Kostiantyn
+								Kucher<sup>1</sup>, Yuan-Fang Li<sup>2</sup>, and Falk Schreiber<sup>2, 3</sup></div>
 							<div>
-								<sup>1</sup> <a href="http://cs.lnu.se/isovis/" class="about-link" target="_blank" title="ISOVIS group">
-									ISOVIS group, Linnaeus	University, Växjö, Sweden
-								</a>									
+								<sup>1</sup> <a href="http://cs.lnu.se/isovis/" class="about-link" target="_blank"
+									title="ISOVIS group">
+									ISOVIS group, Linnaeus University, Växjö, Sweden
+								</a>
 							</div>
-							
+
 							<div>
-								<sup>2</sup> <a href="http://www.csse.monash.edu.au/" class="about-link" target="_blank">
+								<sup>2</sup> <a href="http://www.csse.monash.edu.au/" class="about-link"
+									target="_blank">
 									Faculty of Information Technology, Monash University, Clayton, Australia
 								</a>
 							</div>
-							
+
 							<div>
-								<sup>3</sup> <a href="http://www.informatik.uni-konstanz.de/en/" class="about-link" target="_blank">
+								<sup>3</sup> <a href="http://www.informatik.uni-konstanz.de/en/" class="about-link"
+									target="_blank">
 									Department of Computer and Information Science, University of Konstanz, Germany
 								</a>
 							</div>
-							<div class="small-top-margin"><b>To cite this resource,</b> please refer to the <a href="https://doi.org/10.1371/journal.pone.0187341" target="_blank" title="BioVis Explorer: A visual guide for biological data visualization techniques">PLOS ONE article</a>.
-   							Also, check out our earlier <a href="http://dx.doi.org/10.2312/eurp.20171175" target="_blank" title="MDS-based Visual Survey of Biological Data Visualization Techniques">EuroVis 2017 poster abstract</a>.</div>						
+							<div class="small-top-margin"><b>To cite this resource,</b> please refer to the <a
+									href="https://doi.org/10.1371/journal.pone.0187341" target="_blank"
+									title="BioVis Explorer: A visual guide for biological data visualization techniques">PLOS
+									ONE article</a>.
+								Also, check out our earlier <a href="http://dx.doi.org/10.2312/eurp.20171175"
+									target="_blank"
+									title="MDS-based Visual Survey of Biological Data Visualization Techniques">EuroVis
+									2017 poster abstract</a>.</div>
 						</div>
 					</div>
 					<div id="statsContainer"></div>
@@ -490,167 +519,198 @@
 		<!-- /.modal-dialog -->
 	</div>
 	<!-- /.modal -->
-		
+
 	<!-- Summary table modal -->
-	<div id="summaryTableModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="summaryTableTitle" aria-hidden="true" data-backdrop="static">
+	<div id="summaryTableModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="summaryTableTitle"
+		aria-hidden="true" data-backdrop="static">
 		<div class="modal-dialog modal-max">
-  			<div class="modal-content">
+			<div class="modal-content">
 				<div class="modal-header" hidden="true"></div>
-   				<div class="modal-body">
-   					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<div class="modal-body">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 					<h3>Survey summary</h3>
-   					<div id="summaryTableContainer"></div>
-     			</div>
-     			<div class="modal-footer" hidden="true"></div>
-  			</div><!-- /.modal-content -->
+					<div id="summaryTableContainer"></div>
+				</div>
+				<div class="modal-footer" hidden="true"></div>
+			</div><!-- /.modal-content -->
 		</div><!-- /.modal-dialog -->
 	</div><!-- /.modal -->
-	
+
 	<!-- Add entry modal -->
-	<div id="addEntryModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="addEntryTitle" aria-hidden="true" data-backdrop="static">
+	<div id="addEntryModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="addEntryTitle"
+		aria-hidden="true" data-backdrop="static">
 		<div class="modal-dialog modal-wide">
-  			<div class="modal-content">
+			<div class="modal-content">
 				<div class="modal-header" hidden="true"></div>
-   				<div class="modal-body">
-   					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-   					<h3 id="addEntryTitle">Add entry</h3>
-   					If you are an author of a <a href="http://definitions.uslegal.com/p/peer-review-education/" target="_blank">peer-reviewed</a> <a href="http://definitions.uslegal.com/a/academic-publishing/" target="_blank">published work</a>
-   					on biological data visualization that presents a contribution missing in our survey, please feel free to 
-   					submit an entry. If you wish to do so, please use the form below to generate a JSON entry, save it as a file and send it to
-   					<a href="mailto:kostiantyn.kucher@lnu.se?subject=BioVis Explorer entry">Kostiantyn Kucher</a> together with
-   					<ul>
-   					<li>a 100x100 px PNG thumbnail of your visualization, and</li>
-   					<li>a BibTeX reference file.</li>
-   					</ul> 
-   					The publication URL provided in the form should point to <a href="http://dx.doi.org/" target="_blank">a DOI</a>.
-   					You can also specify a separate URL for the software implementation or the online tool corresponding to your visualization technique, if applicable.
-   					Also, please acknowledge the fact that by submitting an entry, you provide us with permissions to use your image on this resource and in related publications.
-   					<p class="large-top-margin">
-   						<b>Note:</b> if you have trouble seeing the resulting entry after clicking the "Process" button, please check your AdBlock settings (and add this website to the whitelist). 
-   					</p>
-   					
-   					
-   					<div class="vertical-delimiter"></div>
-   					<form class="form-horizontal" role="form">
+				<div class="modal-body">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h3 id="addEntryTitle">Add entry</h3>
+					If you are an author of a <a href="http://definitions.uslegal.com/p/peer-review-education/"
+						target="_blank">peer-reviewed</a> <a
+						href="http://definitions.uslegal.com/a/academic-publishing/" target="_blank">published work</a>
+					on Self Adaptive Systems that presents a contribution missing in our survey, please feel free to
+					submit an entry. If you wish to do so, please use the form below to generate a JSON entry, save it
+					as a file and send it to
+					<a href="mailto:cb223ai@lnu.se?subject=SaS Explorer entry">Cristian B.</a> together with
+					<ul>
+						<li>a 100x100 px PNG thumbnail of your paper, and</li>
+						<li>a BibTeX reference file.</li>
+					</ul>
+					The publication URL provided in the form should point <b> IS IT NECCESSARY? </b> to <a
+						href="http://dx.doi.org/" target="_blank">a DOI</a>.
+					You can also specify a separate URL for the software implementation or the online tool corresponding
+					to your paper, if applicable.
+					Also, please acknowledge the fact that by submitting an entry, you provide us with permissions to
+					use your image on this resource and in related publications.
+					<p class="large-top-margin">
+						<b>Note:</b> if you have trouble seeing the resulting entry after clicking the "Process" button,
+						please check your AdBlock settings (and add this website to the whitelist).
+					</p>
+
+
+					<div class="vertical-delimiter"></div>
+					<form class="form-horizontal" role="form">
 						<div class="form-group">
-					    	<label for="inputEntryTitle" class="col-sm-2 control-label">Short title</label>
-						    <div class="col-sm-10">
-						    	<input type="text" class="form-control form-mandatory" id="inputEntryTitle" placeholder="e.g., My New BioVis Technique">
-						    </div>
-					    </div>
-					    
-					    <div class="form-group">
-					    	<label for="inputEntryYear" class="col-sm-2 control-label">Year</label>
-						    <div class="col-sm-10">
-						    	<input type="number" class="form-control form-mandatory" id="inputEntryYear" placeholder="e.g., 2017" min="1900" max="2050" value="2017">
-						    </div>
-					    </div>
-					    
-					    <div class="form-group">
-					    	<label for="inputEntryAuthors" class="col-sm-2 control-label">Authors</label>
-						    <div class="col-sm-10">
-						    	<input type="text" class="form-control form-mandatory" id="inputEntryAuthors" placeholder="e.g., John Doe and Jane Doe">
-						    </div>
-					    </div>
-					    
-					    <div class="form-group">
-					    	<label for="inputEntryCategories" class="col-sm-2 control-label">Categories</label>
-						    <div id="inputEntryCategories" class="col-sm-10">
-						    </div>
-					    </div>
-					    
-					    <div class="form-group">
-					    	<label for="inputEntryReference" class="col-sm-2 control-label">Reference</label>
-						    <div class="col-sm-10">
-						    	<input type="text" class="form-control form-mandatory" id="inputEntryReference" placeholder="e.g., John Doe and Jane Doe. Great Long Title. Proceedings of a famous conference, pp. 100-105, 2017.">
-						    </div>
-					    </div>
-					    
-					    <div class="form-group">
-					    	<label for="inputEntryPMID" class="col-sm-2 control-label">PubMed ID (PMID)</label>
-						    <div class="col-sm-10">
-						    	<input type="text" class="form-control" id="inputEntryPMID" placeholder="e.g., 123456789">
-						    </div>
-					    </div>
-					    					    
-					    <div class="form-group">
-					    	<label for="inputEntryUrl" class="col-sm-2 control-label">URL (publication)</label>
-						    <div class="col-sm-10">
-						    	<input type="url" class="form-control" id="inputEntryUrl" placeholder="e.g., http://dx.doi.org/0">
-						    </div>
-					    </div>
-					    
-					    <div class="form-group">
-					    	<label for="inputEntryImplementationUrl" class="col-sm-2 control-label">URL (implementation)</label>
-						    <div class="col-sm-10">
-						    	<input type="url" class="form-control" id="inputEntryImplementationUrl" placeholder="e.g., http://mysoftwareimplementation.org/">
-						    </div>
-					    </div>
-					    
-					    <div class="form-group">
-					    	<div class="col-sm-12">
-					    		<button id="resetNewEntry" type="reset" class="btn btn-default">Reset</button>
-					      		<button id="processNewEntry" type="button" class="btn btn-default pull-right">Process</button>
-					    	</div>
-					    </div>
+							<label for="inputEntryTitle" class="col-sm-2 control-label">Short title</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control form-mandatory" id="inputEntryTitle"
+									placeholder="e.g., My New BioVis Technique">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputEntryYear" class="col-sm-2 control-label">Year</label>
+							<div class="col-sm-10">
+								<input type="number" class="form-control form-mandatory" id="inputEntryYear"
+									placeholder="e.g., 2017" min="1900" max="2050" value="2017">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputEntryAuthors" class="col-sm-2 control-label">Authors</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control form-mandatory" id="inputEntryAuthors"
+									placeholder="e.g., John Doe and Jane Doe">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputEntryCategories" class="col-sm-2 control-label">Categories</label>
+							<div id="inputEntryCategories" class="col-sm-10">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputEntryReference" class="col-sm-2 control-label">Reference</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control form-mandatory" id="inputEntryReference"
+									placeholder="e.g., John Doe and Jane Doe. Great Long Title. Proceedings of a famous conference, pp. 100-105, 2017.">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputEntryUrl" class="col-sm-2 control-label">URL (publication)</label>
+							<div class="col-sm-10">
+								<input type="url" class="form-control" id="inputEntryUrl"
+									placeholder="e.g., http://dx.doi.org/0">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputEntryImplementationUrl" class="col-sm-2 control-label">URL
+								(implementation)</label>
+							<div class="col-sm-10">
+								<input type="url" class="form-control" id="inputEntryImplementationUrl"
+									placeholder="e.g., http://mysoftwareimplementation.org/">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<div class="col-sm-12">
+								<button id="resetNewEntry" type="reset" class="btn btn-default">Reset</button>
+								<button id="processNewEntry" type="button"
+									class="btn btn-default pull-right">Process</button>
+							</div>
+						</div>
 					</form>
-   					
-     			</div>
-     			<div class="modal-footer" hidden="true"></div>
-  			</div><!-- /.modal-content -->
+
+				</div>
+				<div class="modal-footer" hidden="true"></div>
+			</div><!-- /.modal-content -->
 		</div><!-- /.modal-dialog -->
 	</div><!-- /.modal -->
-		
+
 	<!-- Help modal -->
-	<div id="helpModal" class="modal fade" tabindex="-1" role="dialog"
-		aria-labelledby="helpTitle" aria-hidden="true" data-backdrop="static">
+	<div id="helpModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="helpTitle" aria-hidden="true"
+		data-backdrop="static">
 		<div class="modal-dialog modal-medium">
 			<div class="modal-content">
 				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+							aria-hidden="true">&times;</span></button>
 					<h4 class="modal-title">Help</h4>
 				</div>
 				<div class="modal-body">
 					<h4>Basic exploration features</h4>
-					<div>The main view comprises thumbnails of BioVis techniques that are positioned according to their mutual dissimilarity,
-					i.e., the thumbnails located near each other correspond to the techniques with low dissimilarity/distance (see below for details).
+					<div>The main view comprises thumbnails of Self Adaptive Systems papers that are positioned
+						according to their mutual dissimilarity,
+						i.e., the thumbnails located near each other correspond to the techniques with low
+						dissimilarity/distance (see below for details).
 					</div>
-					<div>By clicking on a thumbnail in the main view, you can open a dialog with detailed information on the technique title, corresponding
-					types and properties of data, supported visualization and analysis tasks, corresponding publication, and a BiBTex file with bibliographical information. 
+					<div>By clicking on a thumbnail in the main view, you can open a dialog with detailed information on
+						the technique title, corresponding
+						types and properties of data, supported visualization and analysis tasks, corresponding
+						publication, and a BiBTex file with bibliographical information.
 					</div>
-					<div>To explore cluttered regions of the main view, it is possible to pan it by dragging with the pressed left mouse button, and to zoom it with the mouse wheel.
+					<div>To explore cluttered regions of the main view, it is possible to pan it by dragging with the
+						pressed left mouse button, and to zoom it with the mouse wheel.
 					</div>
-					<div>Hovering over a technique thumbnail will blur the thumbnails for dissimilar techniques, and display the links to similar techniques as well as the actual
-					similarity value normalized in range [0; 1] (0 meaning minimum similarity / maximum distance, and 1 meaning maximum similarity / minimum distance). See below for more details. 
+					<div>Hovering over a technique thumbnail will blur the thumbnails for dissimilar techniques, and
+						display the links to similar techniques as well as the actual
+						similarity value normalized in range [0; 1] (0 meaning minimum similarity / maximum distance,
+						and 1 meaning maximum similarity / minimum distance). See below for more details.
 					</div>
-					<div>Right-clicking a technique thumbnail will select it and provide an effect similar to highlighting on hover, except for the fact that such selection will be persistent until the same or other
-					thumbnail is right-clicked.
+					<div>Right-clicking a technique thumbnail will select it and provide an effect similar to
+						highlighting on hover, except for the fact that such selection will be persistent until the same
+						or other
+						thumbnail is right-clicked.
 					</div>
-					
+
 					<h4>Basic search and filtering</h4>
-					<div>By using the panel in the left side of the page, it is possible to search for specific techniques (the query string will be searched for in all fields such as the publication information
-					and categories) and to filter the displayed techniques based on the publication year and the assigned categories. 
+					<div>By using the panel in the left side of the page, it is possible to search for specific
+						techniques (the query string will be searched for in all fields such as the publication
+						information
+						and categories) and to filter the displayed techniques based on the publication year and the
+						assigned categories.
 					</div>
-										
+
 					<h4>Advanced features</h4>
-					<div>The "Advanced" tab in the left side of the page provides controls for re-adjusting the parameters related to similarity computations.
+					<div>The "Advanced" tab in the left side of the page provides controls for re-adjusting the
+						parameters related to similarity computations.
 					</div>
-					<div>By changing the values for specific similarity factors, it is possible to change their weight when computing the similarity for each pair of techniques. For instance, setting 
-					a value to 0 will essentially exclude the factor from computations. After each change, the layout in the main view is recomputed using the updated combination of factors.
-					<div>The factors include the following:
-						<ul>
-						<li>Difference in the publication year values</li>
-						<li>Difference in the assigned sets of categories (calculated using Jaccard index)</li>
-						<li>Difference in the sets of authors parsed from publication information (calculated using Jaccard index)</li>
-						</ul>
+					<div>By changing the values for specific similarity factors, it is possible to change their weight
+						when computing the similarity for each pair of techniques. For instance, setting
+						a value to 0 will essentially exclude the factor from computations. After each change, the
+						layout in the main view is recomputed using the updated combination of factors.
+						<div>The factors include the following:
+							<ul>
+								<li>Difference in the publication year values</li>
+								<li>Difference in the assigned sets of categories (calculated using Jaccard index)</li>
+								<li>Difference in the sets of authors parsed from publication information (calculated
+									using Jaccard index)</li>
+							</ul>
+						</div>
 					</div>
+					<div>By changing the value for the similarity cutoff/threshold, it is possible to control which
+						techniques will be considered similar/dissimilar during interactive exploration (highlighting
+						and selection
+						described above). For instance, setting this threshold value to 0 will essentially consider all
+						techniques similar to each other (and the interactive highlighting will make no sense). By
+						setting the threshold
+						larger than the default value, it is possible to focus only on more similar techniques.
 					</div>
-					<div>By changing the value for the similarity cutoff/threshold, it is possible to control which techniques will be considered similar/dissimilar during interactive exploration (highlighting and selection
-					described above). For instance, setting this threshold value to 0 will essentially consider all techniques similar to each other (and the interactive highlighting will make no sense). By setting the threshold
-					larger than the default value, it is possible to focus only on more similar techniques. 
-					</div>
-						
-					
+
+
 				</div>
 				<div class="modal-footer" hidden="true"></div>
 			</div>
@@ -669,17 +729,18 @@
 	<script src="js/underscore.min.js"></script>
 
 	<!-- Numeric -->
-	<script src="js/numeric.min.js"></script>
-
+	<script src="js/numeric.js"></script>
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/numeric/1.2.6/numeric.min.js"></script> -->
 	<!-- noUiSlider -->
 	<script src="js/jquery.nouislider.min.js"></script>
 
 	<!-- D3 -->
 	<script src="js/d3.v3.min.js"></script>
 	<!-- Colorbrewer colors (used for statistics diagram) -->
-    <script src="js/colorbrewer.js"></script>
+	<script src="js/colorbrewer.js"></script>
 
 	<!-- Custom JS code -->
 	<script src="js/biovisexplorer.js"></script>
 </body>
+
 </html>
