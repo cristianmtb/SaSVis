@@ -133,7 +133,32 @@
 
 							<div id="advancedFeatures" role="tabpanel"
 								class="tab-pane panel panel-default small-bottom-margin">
+
 								<ul class="list-group">
+									<li class="list-group-item">
+										<ul class="list-group nested-list-group">
+											<h5 class="inline-block panel-label">
+												Highlight configuration</h5>
+											<li class="list-group-item">
+												<div
+													title="Minimum similarity threshold for interactive highlighting of relevant entries (try to hover over an entry)">
+													Cutoff for similarity: <span id="similarityThreshold"></span>
+												</div>
+												<div class="slider-label-container">
+													<span class="slider-label-min weight-label-min">-</span>
+													<span class="slider-label-max weight-label-max">+</span>
+												</div>
+												<div class="slider-container">
+													<div id="similaritySlider"></div>
+												</div>
+											</li>
+										</ul>
+									</li>
+								</ul>
+
+								<ul class="list-group" style="max-height: 700px;
+								margin-bottom: 10px;
+								overflow:scroll;">
 									<li class="list-group-item">
 										<ul class="list-group nested-list-group">
 											<h5 class="inline-block panel-label">
@@ -359,27 +384,7 @@
 									</li>
 								</ul>
 
-								<ul class="list-group">
-									<li class="list-group-item">
-										<ul class="list-group nested-list-group">
-											<h5 class="inline-block panel-label">
-												Highlight configuration</h5>
-											<li class="list-group-item">
-												<div
-													title="Minimum similarity threshold for interactive highlighting of relevant entries (try to hover over an entry)">
-													Cutoff for similarity: <span id="similarityThreshold"></span>
-												</div>
-												<div class="slider-label-container">
-													<span class="slider-label-min weight-label-min">-</span>
-													<span class="slider-label-max weight-label-max">+</span>
-												</div>
-												<div class="slider-container">
-													<div id="similaritySlider"></div>
-												</div>
-											</li>
-										</ul>
-									</li>
-								</ul>
+								
 							</div>
 
 						</div>
@@ -407,7 +412,7 @@
 		<div class="row-container">
 			<div class="footer">
 				<hr>
-				<!-- <p class="text-muted credit no-top-margin no-bottom-margin">
+				<p class="text-muted credit no-top-margin no-bottom-margin">
 					&copy; ISOVIS group 2015&ndash;2019. All rights for the technique images belong to their respective owners.
 				</p>
 				<p class="text-muted credit no-top-margin no-bottom-margin">
@@ -415,7 +420,7 @@
 				</p>
 				<p class="text-muted credit no-top-margin no-bottom-margin">
 		     		This website is using Google Analytics (for statistical purposes only).
-		   		</p> -->
+		   		</p>
 			</div>
 		</div>
 	</div>
@@ -478,36 +483,7 @@
 						<div class="media-body">
 							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 							<h3 id="aboutTitle">SaS Explorer</h3>
-							<div class="small-bottom-margin">Developed by Andreas Kerren<sup>1</sup>, Kostiantyn
-								Kucher<sup>1</sup>, Yuan-Fang Li<sup>2</sup>, and Falk Schreiber<sup>2, 3</sup></div>
-							<div>
-								<sup>1</sup> <a href="http://cs.lnu.se/isovis/" class="about-link" target="_blank"
-									title="ISOVIS group">
-									ISOVIS group, Linnaeus University, Växjö, Sweden
-								</a>
-							</div>
-
-							<div>
-								<sup>2</sup> <a href="http://www.csse.monash.edu.au/" class="about-link"
-									target="_blank">
-									Faculty of Information Technology, Monash University, Clayton, Australia
-								</a>
-							</div>
-
-							<div>
-								<sup>3</sup> <a href="http://www.informatik.uni-konstanz.de/en/" class="about-link"
-									target="_blank">
-									Department of Computer and Information Science, University of Konstanz, Germany
-								</a>
-							</div>
-							<div class="small-top-margin"><b>To cite this resource,</b> please refer to the <a
-									href="https://doi.org/10.1371/journal.pone.0187341" target="_blank"
-									title="BioVis Explorer: A visual guide for biological data visualization techniques">PLOS
-									ONE article</a>.
-								Also, check out our earlier <a href="http://dx.doi.org/10.2312/eurp.20171175"
-									target="_blank"
-									title="MDS-based Visual Survey of Biological Data Visualization Techniques">EuroVis
-									2017 poster abstract</a>.</div>
+							<div class="small-bottom-margin">Developed from <a href="biovis.lnu.se">Biovis Explorer</a></div>
 						</div>
 					</div>
 					<div id="statsContainer"></div>
@@ -556,8 +532,6 @@
 						<li>a 100x100 px PNG thumbnail of your paper, and</li>
 						<li>a BibTeX reference file.</li>
 					</ul>
-					The publication URL provided in the form should point <b> IS IT NECCESSARY? </b> to <a
-						href="http://dx.doi.org/" target="_blank">a DOI</a>.
 					You can also specify a separate URL for the software implementation or the online tool corresponding
 					to your paper, if applicable.
 					Also, please acknowledge the fact that by submitting an entry, you provide us with permissions to

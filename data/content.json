@@ -90,5 +90,28 @@
         ], 
         "first_author": "Gerostathopoulos", 
         "venue": "Seams 2018"
+    },
+    {
+        "id": "Sedgewick2018", 
+        "title": "Self-adaptation made easy with Blockchains", 
+        "year": 2018, 
+        "authors": "Peter E. Sedgewick; Rogerio de Lemos", 
+        "reference": "", 
+        "url": "", 
+        "categories": [
+            "single",
+            "static",
+            "persistent",
+            "external",
+            "non-functional",
+            "uncertain",
+            "parametric",
+            "autonomous",
+            "decentralized",
+            "uncertain",
+            "event"
+        ], 
+        "first_author": "Sedgewick", 
+        "venue": "Seams 2018"
     }
 ]
