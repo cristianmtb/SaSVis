@@ -1,6 +1,51 @@
 [
     {
         "type": "category",
+        "title": "domain",
+        "description": "Domain",
+        "instruction": "Please select the relevant values:",
+        "childrenDescription": "Goals - Multiplicity: ",
+        "entries": [
+            {
+                "type": "category-entry",
+                "title": "security",
+                "description": "Security",
+                "content": "<span>Security</span>"
+            },
+            {
+                "type": "category-entry",
+                "title": "iot",
+                "description": "IoT",
+                "content": "<span>IoT</span>"
+            },
+            {
+                "type": "category-entry",
+                "title": "financial",
+                "description": "Financial and E-Commenrce",
+                "content": "<span>Financial</span>"
+            },
+            {
+                "type": "category-entry",
+                "title": "transportation",
+                "description": "Transportation",
+                "content": "<span>Transportation</span>"
+            },
+            {
+                "type": "category-entry",
+                "title": "telecom",
+                "description": "Telecommunications",
+                "content": "<span>Telecommunications</span>"
+            },
+            {
+                "type": "category-entry",
+                "title": "healthcare",
+                "description": "Healthcare",
+                "content": "<span>Healthcare</span>"
+            }
+        ]
+    },
+    {
+        "type": "category",
         "title": "goals-multiplicity",
         "description": "Goals - Multiplicity",
         "instruction": "Please select the relevant values:",
